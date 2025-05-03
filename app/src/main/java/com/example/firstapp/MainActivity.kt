@@ -5,8 +5,8 @@ import androidx.activity.ComponentActivity
 
 class MainActivity : ComponentActivity() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+    override fun onCreate(saveIns: Bundle?) {
+        super.onCreate(saveIns)
         setContentView(R.layout.activity_main)
     }
 
