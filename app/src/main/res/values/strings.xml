@@ -3,4 +3,13 @@
     <string name="arindamHello">ArindamHello</string>
     <string name="my_documents">My Documents</string>
     <string name="go_to_whatsapp">Go to Whatsapp button</string>
+    <string name="go_to_calculator">Go to Calculator App</string>
+    <string name="enter_number_01_text">Enter Number 01</string>
+    <string name="enter_number_02_text">Enter Number 02</string>
+    <string name="result">Result</string>
+    <string name="addition_button">ADDITION</string>
+    <string name="substract_button">SUBSTRACT</string>
+    <string name="multiply_button">MULTIPLY</string>
+    <string name="division_button">DIVISION</string>
+    <string name="back_button">Back Button</string>
 </resources>

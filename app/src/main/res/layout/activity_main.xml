@@ -6,13 +6,25 @@
     android:orientation="vertical">
 
     <Button
-        android:id="@+id/whatsapp_button"
+        android:id="@+id/whatsapp_nav_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="100dp"
         android:background="@color/black"
         android:text="@string/go_to_whatsapp"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+
+    <Button
+        android:id="@+id/calculator_act_nav_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="@color/purple_500"
+        android:text="@string/go_to_calculator"
         android:textAllCaps="false"
         android:textColor="@color/white" />
 
