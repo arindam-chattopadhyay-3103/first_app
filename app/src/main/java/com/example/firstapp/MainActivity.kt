@@ -18,12 +18,12 @@ class MainActivity : ComponentActivity() {
 
         uriString = "Go to link : https://www.youtube.com/watch?v=W8MjnsJ820E"
 
-        buttonWhatsApp = findViewById<Button>(R.id.whatsapp_nav_button)
+        buttonWhatsApp = findViewById(R.id.whatsapp_nav_button)
         buttonWhatsApp.setOnClickListener {
             whatsappShare(uriString)
         }
 
-        buttonCalculatorActivity = findViewById<Button>(R.id.calculator_act_nav_button)
+        buttonCalculatorActivity = findViewById(R.id.calculator_act_nav_button)
         buttonCalculatorActivity.setOnClickListener {
             navToCalculatorActivity()
         }
